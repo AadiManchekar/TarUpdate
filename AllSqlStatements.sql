@@ -1,5 +1,8 @@
--- Create Database TarUpdateDB
-CREATE DATABASE TarUpdateDB;
+-- Create Database tarupdatedb
+CREATE DATABASE tarupdatedb;
+
+-- Connect to the Database:
+\c tarupdatedb
 
 -- Create Apps table
 CREATE TABLE apps (
